@@ -1,0 +1,62 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+body,
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper,
+.month,
+.day1,
+.day2,
+.year {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    background-color: slateblue;
+
+}
+
+.container {
+    width: 300px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    height: 300px;
+    border-radius: 10px;
+}
+
+.month {
+    width: 100%;
+    height: 70px;
+    background-color: orangered;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.month h1 {
+    color: white;
+}
+.one {
+    color: silver;
+    font-size: 20px;
+}
+.day1, .year {
+    width: 100%;
+    height: 70px;
+}
+.day2 {
+    width: 100%;
+    height: 100px;
+}
+.day2 h1 {
+    font-size: 80px;
+}
